@@ -1,0 +1,42 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+EXO1/dist
+EXO1/tmp
+EXO1/out-tsc
+EXO1/bazel-out
+
+# Node
+EXO1/node_modules
+EXO1/npm-debug.log
+EXO1/yarn-error.log
+
+# IDEs and editors
+EXO1/.idea/
+EXO1/.project
+EXO1/.classpath
+EXO1/.c9/
+EXO1/*.launch
+EXO1/.settings/
+EXO1/*.sublime-workspace
+
+# Visual Studio Code
+EXO1/.vscode/*
+EXO1/!.vscode/settings.json
+EXO1/!.vscode/tasks.json
+EXO1/!.vscode/launch.json
+EXO1/!.vscode/extensions.json
+EXO1/.history/*
+
+# Miscellaneous
+EXO1/.angular/cache
+EXO1/.sass-cache/
+EXO1/connect.lock
+EXO1/coverage
+EXO1/libpeerconnection.log
+EXO1/testem.log
+EXO1/typings
+
+# System files
+EXO1/.DS_Store
+EXO1/Thumbs.db
