@@ -40,3 +40,46 @@ EXO1/typings
 # System files
 EXO1/.DS_Store
 EXO1/Thumbs.db
+
+
+# ----------------- EXO2
+
+EXO2/dist
+EXO2/tmp
+EXO2/out-tsc
+EXO2/bazel-out
+
+# Node
+EXO2/node_modules
+EXO2/npm-debug.log
+EXO2/yarn-error.log
+
+# IDEs and editors
+EXO2/.idea/
+EXO2/.project
+EXO2/.classpath
+EXO2/.c9/
+EXO2/*.launch
+EXO2/.settings/
+EXO2/*.sublime-workspace
+
+# Visual Studio Code
+EXO2/.vscode/*
+EXO2/!.vscode/settings.json
+EXO2/!.vscode/tasks.json
+EXO2/!.vscode/launch.json
+EXO2/!.vscode/extensions.json
+EXO2/.history/*
+
+# Miscellaneous
+EXO2/.angular/cache
+EXO2/.sass-cache/
+EXO2/connect.lock
+EXO2/coverage
+EXO2/libpeerconnection.log
+EXO2/testem.log
+EXO2/typings
+
+# System files
+EXO2/.DS_Store
+EXO2/Thumbs.db

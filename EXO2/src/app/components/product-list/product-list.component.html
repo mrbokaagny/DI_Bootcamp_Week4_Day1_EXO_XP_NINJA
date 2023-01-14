@@ -1,0 +1,22 @@
+<div class="card">
+  <div class="title">Coffre à produit</div>
+  <div class="form">
+    <form [formGroup]="formsCreate">
+      <input formControlName="name" type="text" placeholder="entrer le nom du produit ...">
+      <input formControlName="price"  type="text" placeholder="prix du produit ...">
+    </form>
+    <button (click)="addProduct()" >Ajouter</button>
+  </div>
+  <div class="listing">
+    <div *ngFor="let item of products" class="itemcard">
+      <div class="namecard">
+        <span>nom : </span>
+        <em>{{ item.name }}</em>
+      </div>
+      <div class="pricecard">
+        <span>price : </span>
+        <em>{{ item.price }} FCFA</em>
+      </div>
+    </div>
+  </div>
+</div>

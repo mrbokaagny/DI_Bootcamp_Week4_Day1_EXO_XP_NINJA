@@ -1,0 +1,62 @@
+.card{
+  background-color: grey;
+  padding: .3em;
+  width: 350px;
+  border-radius: .2em;
+}
+
+.title{
+  text-align: center;
+  padding: .2em;
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.form{
+  width: 100%;
+  padding: .2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+input{
+  height: 35px;
+  padding-left: .3em;
+}
+
+
+button{
+  background-color: orange;
+  border: 1px solid orange;
+  color: white;
+  width: 150px;
+}
+
+
+.listing{
+  position: relative;
+  width: 100%;
+  padding: .2em;
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+}
+
+
+.itemcard{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: .3em;
+  border-radius: .3em;
+  background-color: aliceblue;
+}
+
+.itemcard em{
+  font-weight: bolder;
+}
+
+.namecard , .pricecard{
+  padding: .3em;
+}
